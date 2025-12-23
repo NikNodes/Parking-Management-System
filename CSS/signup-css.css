@@ -1,0 +1,75 @@
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: max-content; */
+}
+
+body{
+    background: url('https://images.unsplash.com/photo-1740928980652-4404c03ff0fa?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000');
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+
+}
+.Signup-form {
+    align-items: center;
+    margin-top: 80px;
+    background: rgba(255, 255, 255 , 0.6);
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Table layout */
+.Signup-form table {
+    width: 100%;
+    
+}
+
+.Signup-form td {
+    padding: 10px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+/* Inputs */
+.Signup-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.Signup-form input:focus {
+    border-color: #1d2671;
+}
+
+/* Button */
+.Signup-form button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #192248, #3e301d);
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 85px;
+    /* padding: 34px; */
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Signup-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
