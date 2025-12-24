@@ -29,6 +29,10 @@ body {
     letter-spacing: 1px;
 }
 
+.logo h1:hover{
+    cursor: pointer;
+}
+
 /* ===== Navbar ===== */
 .navbar a {
     text-decoration: none;

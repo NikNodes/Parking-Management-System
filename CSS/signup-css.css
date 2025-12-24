@@ -37,7 +37,7 @@ body{
 }
 
 /* Inputs */
-.Signup-form input {
+.Signup-form input , select{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;

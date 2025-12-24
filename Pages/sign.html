@@ -10,9 +10,10 @@
 </head>
 
 <body>
+    <script src="..\JS\script.js"></script>
     <div class="head">
         <div class="logo">
-            <h1>Parking Slot Booking</h1>
+            <h1 onclick="home()">Parking Slot Booking</h1>
         </div>
     </div>
     <div class="main-body">
@@ -29,6 +30,15 @@
             <tr>
                 <td>Password</td>
                 <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Sign in As</td>
+                <td>
+                    <select name="Role" id="role">
+                        <option value="Customer">Customer</option>
+                        <option value="Owner">Admin</option>
+                    </select>
+                </td>
             </tr>
             <tr>
                 <td><button>Signup</button></td>
